@@ -1,0 +1,102 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 4
+Title "Digital 10 GHz Super Keyer"
+Date "2020-10-04"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 13125 2275 675  375 
+U 5F79D14A
+F0 "Mixer 1" 50
+F1 "mixer_1.sch" 50
+F2 "LO_IN" I L 13125 2575 50 
+F3 "X2" I L 13125 2450 50 
+F4 "EN" I L 13125 2325 50 
+$EndSheet
+$Sheet
+S 13125 2950 675  375 
+U 5F7D16C8
+F0 "Mixer 2" 50
+F1 "mixer_2.sch" 50
+F2 "LO_IN" I L 13125 3250 50 
+F3 "X2" I L 13125 3125 50 
+F4 "EN" I L 13125 3000 50 
+$EndSheet
+$Sheet
+S 9375 4125 2125 1300
+U 5F7DB52D
+F0 "ADF4355 PLL" 50
+F1 "ad4355.sch" 50
+F2 "LO_B" O R 11500 4875 50 
+F3 "LO_A" O R 11500 4225 50 
+F4 "PLL_CLK" I L 9375 5375 50 
+F5 "PLL_DATA" I L 9375 5275 50 
+F6 "PLL_LE" I L 9375 5175 50 
+F7 "PLL_LOCK" O L 9375 5075 50 
+F8 "CLKREF_P" I L 9375 4200 50 
+F9 "CLKREF_N" I L 9375 4300 50 
+$EndSheet
+Wire Wire Line
+	11500 4225 12325 4225
+Wire Wire Line
+	12325 4225 12325 2575
+Wire Wire Line
+	12325 2575 13125 2575
+Wire Wire Line
+	11500 4875 12625 4875
+Wire Wire Line
+	12625 4875 12625 3250
+Wire Wire Line
+	12625 3250 13125 3250
+Text Notes 3800 4300 0    50   ~ 0
+OH300-50503CF-040.0M
+Wire Notes Line
+	4950 4075 4950 4450
+Wire Notes Line
+	4950 4450 3500 4450
+Wire Notes Line
+	3500 4450 3500 4075
+Wire Notes Line
+	3500 4075 4950 4075
+Text Notes 5550 4300 0    50   ~ 0
+LTC6957-3
+Wire Notes Line
+	5300 4450 5300 4075
+Wire Notes Line
+	5300 4075 6200 4075
+Wire Notes Line
+	6200 4075 6200 4450
+Wire Notes Line
+	6200 4450 5300 4450
+Wire Notes Line
+	6200 4150 8950 4150
+Wire Notes Line
+	8950 4150 8950 4200
+Wire Notes Line
+	8950 4200 9250 4200
+Wire Notes Line
+	6200 4350 7275 4350
+Wire Notes Line
+	7275 4350 7275 5525
+Text Notes 7150 5725 0    50   ~ 0
+PLUTO
+Wire Notes Line
+	6900 5525 7650 5525
+Wire Notes Line
+	7650 5525 7650 6000
+Wire Notes Line
+	7650 6000 6900 6000
+Wire Notes Line
+	6900 6000 6900 5525
+Wire Notes Line
+	4950 4250 5300 4250
+$EndSCHEMATC

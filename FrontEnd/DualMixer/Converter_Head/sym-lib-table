@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name adf4355)(type Legacy)(uri ${CUSTLIB}/Transceiver/PLL/adf4355.lib)(options "")(descr ""))
+  (lib (name ltc5548)(type Legacy)(uri ${CUSTLIB}/Transceiver/Mixer/LT/ltc5548.lib)(options "")(descr ""))
+  (lib (name bmi-s-209-f)(type Legacy)(uri ${CUSTLIB}/Shield/bmi-s-209-f.lib)(options "")(descr ""))
+  (lib (name passives)(type Legacy)(uri ${CUSTLIB}/Passive/passives.lib)(options "")(descr ""))
+  (lib (name RF_Connectors)(type Legacy)(uri ${CUSTLIB}/Connectors/RF/RF_Connectors.lib)(options "")(descr ""))
+  (lib (name minic_bfcw)(type Legacy)(uri ${CUSTLIB}/Transceiver/Filter/minic_bfcw.lib)(options "")(descr ""))
+  (lib (name adm7170)(type Legacy)(uri ${CUSTLIB}/Power/LDO/adm7170.lib)(options "")(descr ""))
+  (lib (name tcm1-83x-1+)(type Legacy)(uri ${CUSTLIB}/Transceiver/Transformer/tcm1-83x-1+.lib)(options "")(descr ""))
+  (lib (name power_symbols)(type Legacy)(uri ${CUSTLIB}/Power/power_symbols.lib)(options "")(descr ""))
+)
