@@ -1,0 +1,2814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/nats/data/projects/digitensk/FrontEnd/DualMixer/Converter_Head/Converter_Head.sch</source>
+    <date>lun. 14 juin 2021 23:31:11</date>
+    <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Digital 10 GHz Super Keyer</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2020-10-04</date>
+        <source>Converter_Head.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Mixer 1/" tstamps="/5F79D14A/">
+      <title_block>
+        <title>Digital 10 GHz Super Keyer</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2020-10-04</date>
+        <source>mixer_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Mixer 2/" tstamps="/5F7D16C8/">
+      <title_block>
+        <title>Digital 10 GHz Super Keyer</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2020-10-04</date>
+        <source>mixer_2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/ADF4355 PLL/" tstamps="/5F7DB52D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ad4355.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U104">
+      <value>LTC6957IMS-3</value>
+      <footprint>Package_SO:MSOP-12_3x4mm_P0.65mm</footprint>
+      <libsource lib="LTC6957" part="LTC6957IMS-3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7B8B08</tstamp>
+    </comp>
+    <comp ref="C131">
+      <value>0.1uF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7D3132</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>SMA_PCB</value>
+      <footprint>Connectors_RF:SMA_RA_PCB_Amphenol</footprint>
+      <libsource lib="RF_Connectors" part="SMA_PCB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7D9B09</tstamp>
+    </comp>
+    <comp ref="C130">
+      <value>0.1uF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7DCCC1</tstamp>
+    </comp>
+    <comp ref="C128">
+      <value>0.1uF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7ED2CA</tstamp>
+    </comp>
+    <comp ref="C129">
+      <value>0.1uF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7EDACD</tstamp>
+    </comp>
+    <comp ref="L104">
+      <value>IND_0402</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="IND_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F19F4</tstamp>
+    </comp>
+    <comp ref="C127">
+      <value>0.1uF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F460F</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>0</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="RES_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F81AB</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>NC</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="RES_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F8A33</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>0</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="RES_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7FB81F</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>NC</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="RES_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F800104</tstamp>
+    </comp>
+    <comp ref="C126">
+      <value>10nF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F805259</tstamp>
+    </comp>
+    <comp ref="C125">
+      <value>0.1uF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F807C6C</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>50</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="RES_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F80922C</tstamp>
+    </comp>
+    <comp ref="R120">
+      <value>NC</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="RES_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F81A565</tstamp>
+    </comp>
+    <comp ref="R119">
+      <value>0</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="RES_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F81B64B</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x03</value>
+      <footprint>Connectors_508mm:MOL_CONN_2_VH</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E4B2D</tstamp>
+    </comp>
+    <comp ref="U103">
+      <value>TPS54292</value>
+      <footprint>SSOP:PowerPad_TSSOP_16</footprint>
+      <libsource lib="tps5429x" part="TPS5429x" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907B49</tstamp>
+    </comp>
+    <comp ref="C113">
+      <value>10uF</value>
+      <footprint>SM1206</footprint>
+      <libsource lib="passives" part="CAP_1206" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907B6B</tstamp>
+    </comp>
+    <comp ref="C116">
+      <value>10uF</value>
+      <footprint>SM1206</footprint>
+      <libsource lib="passives" part="CAP_1206" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907B71</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>47n</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907B95</tstamp>
+    </comp>
+    <comp ref="L101">
+      <value>5.6uH</value>
+      <footprint>Wurth:WE-HCI_SMD_5.6x5.3x4</footprint>
+      <fields>
+        <field name="Man. Ref.">744316560</field>
+      </fields>
+      <libsource lib="passives" part="IND_SMALL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907BA0</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>470p</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907BA7</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>10</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907BAD</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>10u</value>
+      <footprint>SM1206</footprint>
+      <libsource lib="passives" part="CAP_1206" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907BBB</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>10u</value>
+      <footprint>SM1206</footprint>
+      <libsource lib="passives" part="CAP_1206" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907BC1</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>20.5k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907BD6</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>3.48k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907BDC</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>34.8k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907BF3</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>2.8n</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907BF9</tstamp>
+    </comp>
+    <comp ref="C115">
+      <value>47n</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907C09</tstamp>
+    </comp>
+    <comp ref="L102">
+      <value>5.6uH</value>
+      <footprint>Wurth:WE-HCI_SMD_5.6x5.3x4</footprint>
+      <fields>
+        <field name="Man. Ref.">744316560</field>
+      </fields>
+      <libsource lib="passives" part="IND_SMALL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907C14</tstamp>
+    </comp>
+    <comp ref="C117">
+      <value>470p</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907C1B</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>10</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907C21</tstamp>
+    </comp>
+    <comp ref="C119">
+      <value>10u</value>
+      <footprint>SM1206</footprint>
+      <libsource lib="passives" part="CAP_1206" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907C2F</tstamp>
+    </comp>
+    <comp ref="C118">
+      <value>10u</value>
+      <footprint>SM1206</footprint>
+      <libsource lib="passives" part="CAP_1206" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907C35</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>20.5k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907C4A</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>6.49k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907C50</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>57.6k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907C68</tstamp>
+    </comp>
+    <comp ref="C114">
+      <value>1.68n</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907C6E</tstamp>
+    </comp>
+    <comp ref="C112">
+      <value>4.7u</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907C7E</tstamp>
+    </comp>
+    <comp ref="Q101">
+      <value>BSS138</value>
+      <footprint>SOT:SOT-23</footprint>
+      <libsource lib="NMOS" part="BSS138" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907CA0</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>10k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907CA6</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>10k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907CBB</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>0</value>
+      <footprint>General_SMD:SM1206</footprint>
+      <libsource lib="passives" part="RES_1206" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907CDE</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>0</value>
+      <footprint>General_SMD:SM1206</footprint>
+      <libsource lib="passives" part="RES_1206" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F907CE5</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>ADM7170ACPZ-3.3</value>
+      <footprint>QFN:DFN8_3x3mm</footprint>
+      <libsource lib="adm7170" part="ADM7170" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EB3A7</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>10uF</value>
+      <footprint>SM0805</footprint>
+      <libsource lib="passives" part="CAP_0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EB3B9</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>1nF</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EB3C5</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>10uF</value>
+      <footprint>SM0805</footprint>
+      <libsource lib="passives" part="CAP_0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EB3D1</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>ADM7170ACPZ-3.3</value>
+      <footprint>QFN:DFN8_3x3mm</footprint>
+      <libsource lib="adm7170" part="ADM7170" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA1A8D8</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>10uF</value>
+      <footprint>SM0805</footprint>
+      <libsource lib="passives" part="CAP_0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA1A8EA</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>1nF</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA1A8F6</tstamp>
+    </comp>
+    <comp ref="C111">
+      <value>10uF</value>
+      <footprint>SM0805</footprint>
+      <libsource lib="passives" part="CAP_0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA1A902</tstamp>
+    </comp>
+    <comp ref="U106">
+      <value>ATmega328PB-AU</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega328PB-AU" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBB7377</tstamp>
+    </comp>
+    <comp ref="C133">
+      <value>0.1uF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCC39E5</tstamp>
+    </comp>
+    <comp ref="C134">
+      <value>0.1uF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCC39EB</tstamp>
+    </comp>
+    <comp ref="C132">
+      <value>0.1uF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE005F</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F98B049</tstamp>
+    </comp>
+    <comp ref="R121">
+      <value>10k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA33988</tstamp>
+    </comp>
+    <comp ref="U105">
+      <value>PCA9306DCT_SSOP</value>
+      <footprint>SSOP:SSOP8</footprint>
+      <libsource lib="PCA9306" part="PCA9306DCT_SSOP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE6169</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>Conn_02x06_Odd_Even</value>
+      <footprint>Connectors_254mm:pin_array_6x2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC7A0F4</tstamp>
+    </comp>
+    <comp ref="R122">
+      <value>10k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD7D6B3</tstamp>
+    </comp>
+    <comp ref="R123">
+      <value>10k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDEB200</tstamp>
+    </comp>
+    <comp ref="R126">
+      <value>10k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF02A29</tstamp>
+    </comp>
+    <comp ref="R125">
+      <value>2000k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFA028A</tstamp>
+    </comp>
+    <comp ref="R129">
+      <value>0</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6016B83D</tstamp>
+    </comp>
+    <comp ref="R127">
+      <value>10k</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF02A2F</tstamp>
+    </comp>
+    <comp ref="R130">
+      <value>0</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6018C85F</tstamp>
+    </comp>
+    <comp ref="R131">
+      <value>0</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60213F10</tstamp>
+    </comp>
+    <comp ref="R132">
+      <value>0</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60213F16</tstamp>
+    </comp>
+    <comp ref="X101">
+      <value>8MHz</value>
+      <footprint>Xtal_SMD:xtal_3.2x2.5</footprint>
+      <libsource lib="xtals" part="SMD_XTAL_small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602B0D66</tstamp>
+    </comp>
+    <comp ref="C136">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603413BA</tstamp>
+    </comp>
+    <comp ref="C135">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603421BD</tstamp>
+    </comp>
+    <comp ref="J106">
+      <value>External</value>
+      <footprint>Connectors_254mm:pin_array_6x2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603DE2A1</tstamp>
+    </comp>
+    <comp ref="U107">
+      <value>SN74LV4T125</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <libsource lib="sn74lv4t125" part="SN74LV4T125" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604E6937</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>LED</value>
+      <footprint>General_SMD:LED-0603</footprint>
+      <libsource lib="passives" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607BC277</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>LED</value>
+      <footprint>General_SMD:LED-0603</footprint>
+      <libsource lib="passives" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607BD676</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>LED</value>
+      <footprint>General_SMD:LED-0603</footprint>
+      <libsource lib="passives" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607BE061</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>LED</value>
+      <footprint>General_SMD:LED-0603</footprint>
+      <libsource lib="passives" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607BF216</tstamp>
+    </comp>
+    <comp ref="R124">
+      <value>100</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60872095</tstamp>
+    </comp>
+    <comp ref="R128">
+      <value>100</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608FC129</tstamp>
+    </comp>
+    <comp ref="R133">
+      <value>100</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609298C0</tstamp>
+    </comp>
+    <comp ref="R134">
+      <value>100</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609575F8</tstamp>
+    </comp>
+    <comp ref="J105">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609AC768</tstamp>
+    </comp>
+    <comp ref="J107">
+      <value>SMA_PCB</value>
+      <footprint>Connectors_RF:SMA_RA_PCB_Amphenol</footprint>
+      <libsource lib="RF_Connectors" part="SMA_PCB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD22946</tstamp>
+    </comp>
+    <comp ref="C137">
+      <value>0.1uF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD22952</tstamp>
+    </comp>
+    <comp ref="C138">
+      <value>0.1uF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF0FC77</tstamp>
+    </comp>
+    <comp ref="J202">
+      <value>SMA_PCB</value>
+      <footprint>Connectors_RF:PAD_T_200x110um</footprint>
+      <libsource lib="RF_Connectors" part="SMA_PCB" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5B3C280A</tstamp>
+    </comp>
+    <comp ref="C209">
+      <value>22pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5B3C280C</tstamp>
+    </comp>
+    <comp ref="L203">
+      <value>IND_0603</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="IND_0603" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5B3C2830</tstamp>
+    </comp>
+    <comp ref="L202">
+      <value>IND_0603</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="IND_0603" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5A02D2F6</tstamp>
+    </comp>
+    <comp ref="L201">
+      <value>IND_0603</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="IND_0603" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5B3C2832</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>47pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5B3C2811</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>22pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5B3C2812</tstamp>
+    </comp>
+    <comp ref="C208">
+      <value>0.15pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5A1BAA32</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>0.15pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5A02D301</tstamp>
+    </comp>
+    <comp ref="C207">
+      <value>22pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5B3C282E</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>LTC5549</value>
+      <footprint>QFN:QFN12_2x3mm_UDB_LT</footprint>
+      <libsource lib="ltc5548" part="LTC5549" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5F7A86DC</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>30pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5F7AB513</tstamp>
+    </comp>
+    <comp ref="F201">
+      <value>BFCW-542+</value>
+      <footprint>MiniCircuits:JC0603C</footprint>
+      <libsource lib="minic_bfcw" part="BFCW" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5F7AC9E3</tstamp>
+    </comp>
+    <comp ref="J201">
+      <value>SMA_PCB</value>
+      <footprint>Connectors_RF:PAD_T_200x110um</footprint>
+      <libsource lib="RF_Connectors" part="SMA_PCB" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5F7B1843</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>1uF</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5F7B6AFE</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>30pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 1/" tstamps="/5F79D14A/"/>
+      <tstamp>5F7C11DF</tstamp>
+    </comp>
+    <comp ref="J302">
+      <value>SMA_PCB</value>
+      <footprint>Connectors_RF:PAD_T_200x110um</footprint>
+      <libsource lib="RF_Connectors" part="SMA_PCB" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9C05</tstamp>
+    </comp>
+    <comp ref="C309">
+      <value>22pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9C0B</tstamp>
+    </comp>
+    <comp ref="L303">
+      <value>IND_0603</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="IND_0603" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9C20</tstamp>
+    </comp>
+    <comp ref="L302">
+      <value>IND_0603</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="IND_0603" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9C27</tstamp>
+    </comp>
+    <comp ref="L301">
+      <value>IND_0603</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="IND_0603" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9C2D</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>47pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9C35</tstamp>
+    </comp>
+    <comp ref="C305">
+      <value>22pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9C3B</tstamp>
+    </comp>
+    <comp ref="C308">
+      <value>0.15pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9C52</tstamp>
+    </comp>
+    <comp ref="C306">
+      <value>0.15pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9C61</tstamp>
+    </comp>
+    <comp ref="C307">
+      <value>22pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9C90</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>LTC5549</value>
+      <footprint>QFN:QFN12_2x3mm_UDB_LT</footprint>
+      <libsource lib="ltc5548" part="LTC5549" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9C99</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>30pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9CA2</tstamp>
+    </comp>
+    <comp ref="F301">
+      <value>BFCW-542+</value>
+      <footprint>MiniCircuits:JC0603C</footprint>
+      <libsource lib="minic_bfcw" part="BFCW" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9CA9</tstamp>
+    </comp>
+    <comp ref="J301">
+      <value>SMA_PCB</value>
+      <footprint>Connectors_RF:PAD_T_200x110um</footprint>
+      <libsource lib="RF_Connectors" part="SMA_PCB" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9CBB</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>1uF</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9CC9</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>30pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/Mixer 2/" tstamps="/5F7D16C8/"/>
+      <tstamp>5F7D9CCF</tstamp>
+    </comp>
+    <comp ref="U404">
+      <value>ADF4355</value>
+      <footprint>QFN:QFN32_5x5mm_3.6mm</footprint>
+      <libsource lib="adf4355" part="ADF4355" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C5210</tstamp>
+    </comp>
+    <comp ref="K401">
+      <value>TCM1-83X-1+</value>
+      <footprint>MiniCircuits:DB1627</footprint>
+      <libsource lib="tcm1-83x-1+" part="TCM1-83X-1+" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A163F0E</tstamp>
+    </comp>
+    <comp ref="K402">
+      <value>TCM1-83X-1+</value>
+      <footprint>MiniCircuits:DB1627</footprint>
+      <libsource lib="tcm1-83x-1+" part="TCM1-83X-1+" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A163F95</tstamp>
+    </comp>
+    <comp ref="L403">
+      <value>7.5nH</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="IND_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C51DC</tstamp>
+    </comp>
+    <comp ref="C425">
+      <value>100pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5AB39A17</tstamp>
+    </comp>
+    <comp ref="C426">
+      <value>100pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A164352</tstamp>
+    </comp>
+    <comp ref="L401">
+      <value>7.5nH</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="IND_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A1643BA</tstamp>
+    </comp>
+    <comp ref="L404">
+      <value>7.5nH</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="IND_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C51DF</tstamp>
+    </comp>
+    <comp ref="C427">
+      <value>100pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5AB39A1B</tstamp>
+    </comp>
+    <comp ref="C428">
+      <value>100pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5AB39A1C</tstamp>
+    </comp>
+    <comp ref="L402">
+      <value>7.5nH</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="IND_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C5216</tstamp>
+    </comp>
+    <comp ref="C429">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C51F4</tstamp>
+    </comp>
+    <comp ref="C415">
+      <value>1500pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A16A8C5</tstamp>
+    </comp>
+    <comp ref="C414">
+      <value>33nF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A16A92C</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>1k</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="RES_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A16A99F</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>RES_0402</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="RES_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5AB39A42</tstamp>
+    </comp>
+    <comp ref="C413">
+      <value>390pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A16AA86</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>4.7k</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="RES_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A16AB4C</tstamp>
+    </comp>
+    <comp ref="C424">
+      <value>100nF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A169664</tstamp>
+    </comp>
+    <comp ref="C431">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5AB39A4C</tstamp>
+    </comp>
+    <comp ref="C430">
+      <value>100nF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5AB39A4E</tstamp>
+    </comp>
+    <comp ref="C433">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5AB39A4F</tstamp>
+    </comp>
+    <comp ref="C432">
+      <value>100nF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C5227</tstamp>
+    </comp>
+    <comp ref="C421">
+      <value>100nF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C5229</tstamp>
+    </comp>
+    <comp ref="C417">
+      <value>100nF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C51FE</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>ADM7170ACPZ-5.0</value>
+      <footprint>QFN:DFN8_3x3mm</footprint>
+      <libsource lib="adm7170" part="ADM7170" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C5202</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>10uF</value>
+      <footprint>SM0805</footprint>
+      <libsource lib="passives" part="CAP_0805" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A1407ED</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>1nF</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C51CD</tstamp>
+    </comp>
+    <comp ref="C407">
+      <value>10uF</value>
+      <footprint>SM0805</footprint>
+      <libsource lib="passives" part="CAP_0805" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A142179</tstamp>
+    </comp>
+    <comp ref="U402">
+      <value>ADM7170ACPZ-3.3</value>
+      <footprint>QFN:DFN8_3x3mm</footprint>
+      <libsource lib="adm7170" part="ADM7170" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C51D1</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>10uF</value>
+      <footprint>SM0805</footprint>
+      <libsource lib="passives" part="CAP_0805" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5AB399FE</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>1nF</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C51D3</tstamp>
+    </comp>
+    <comp ref="C408">
+      <value>10uF</value>
+      <footprint>SM0805</footprint>
+      <libsource lib="passives" part="CAP_0805" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A144CC2</tstamp>
+    </comp>
+    <comp ref="U403">
+      <value>ADM7170ACPZ-3.3</value>
+      <footprint>QFN:DFN8_3x3mm</footprint>
+      <libsource lib="adm7170" part="ADM7170" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C5209</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>10uF</value>
+      <footprint>SM0805</footprint>
+      <libsource lib="passives" part="CAP_0805" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5AB39A07</tstamp>
+    </comp>
+    <comp ref="C406">
+      <value>1nF</value>
+      <footprint>SM0603</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C520C</tstamp>
+    </comp>
+    <comp ref="C409">
+      <value>10uF</value>
+      <footprint>SM0805</footprint>
+      <libsource lib="passives" part="CAP_0805" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5AB39A0B</tstamp>
+    </comp>
+    <comp ref="C411">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C522B</tstamp>
+    </comp>
+    <comp ref="C410">
+      <value>100nF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5A3610A1</tstamp>
+    </comp>
+    <comp ref="C423">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C522C</tstamp>
+    </comp>
+    <comp ref="C422">
+      <value>100nF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C522E</tstamp>
+    </comp>
+    <comp ref="C412">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C522F</tstamp>
+    </comp>
+    <comp ref="C416">
+      <value>100nF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C5230</tstamp>
+    </comp>
+    <comp ref="C418">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C5231</tstamp>
+    </comp>
+    <comp ref="C419">
+      <value>1n</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5AB5969C</tstamp>
+    </comp>
+    <comp ref="J401">
+      <value>uFL</value>
+      <footprint>Connectors_RF:U.FL-R-SMT-1</footprint>
+      <libsource lib="RF_Connectors" part="uFL" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B2DE74E</tstamp>
+    </comp>
+    <comp ref="C446">
+      <value>NC</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B2DE755</tstamp>
+    </comp>
+    <comp ref="C442">
+      <value>NC</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B2DE75F</tstamp>
+    </comp>
+    <comp ref="C444">
+      <value>CAP_0402</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C5237</tstamp>
+    </comp>
+    <comp ref="J402">
+      <value>uFL</value>
+      <footprint>Connectors_RF:U.FL-R-SMT-1</footprint>
+      <libsource lib="RF_Connectors" part="uFL" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C5239</tstamp>
+    </comp>
+    <comp ref="C447">
+      <value>NC</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C523A</tstamp>
+    </comp>
+    <comp ref="C443">
+      <value>NC</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B2E050D</tstamp>
+    </comp>
+    <comp ref="C445">
+      <value>CAP_0402</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B3C523D</tstamp>
+    </comp>
+    <comp ref="C420">
+      <value>1n</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>5B38C695</tstamp>
+    </comp>
+    <comp ref="F401">
+      <value>MINIC_LFCN</value>
+      <footprint>MiniCircuits:FV1206</footprint>
+      <libsource lib="minic_lfcn" part="MINIC_LFCN" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>6022B9F1</tstamp>
+    </comp>
+    <comp ref="F403">
+      <value>MINIC_HFCN</value>
+      <footprint>MiniCircuits:FV1206</footprint>
+      <libsource lib="minic_hfcn" part="MINIC_HFCN" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>602ED4AD</tstamp>
+    </comp>
+    <comp ref="F402">
+      <value>MINIC_LFCN</value>
+      <footprint>MiniCircuits:FV1206</footprint>
+      <libsource lib="minic_lfcn" part="MINIC_LFCN" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>603C7867</tstamp>
+    </comp>
+    <comp ref="F404">
+      <value>MINIC_HFCN</value>
+      <footprint>MiniCircuits:FV1206</footprint>
+      <libsource lib="minic_hfcn" part="MINIC_HFCN" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>603F5299</tstamp>
+    </comp>
+    <comp ref="C435">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>604E9BDA</tstamp>
+    </comp>
+    <comp ref="C436">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>60576450</tstamp>
+    </comp>
+    <comp ref="C434">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>60576BB2</tstamp>
+    </comp>
+    <comp ref="C438">
+      <value>10pF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0402" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>60BB7612</tstamp>
+    </comp>
+    <comp ref="C437">
+      <value>100nF</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="passives" part="CAP_0603" description=""/>
+      <sheetpath names="/ADF4355 PLL/" tstamps="/5F7DB52D/"/>
+      <tstamp>60BB761E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x06_Odd_Even">
+      <description>Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x06_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTC6957" part="LTC6957IMS-3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC6957IMS-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FILTA" type="passive"/>
+        <pin num="2" name="V+" type="power_in"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="IN-" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="FILTB" type="passive"/>
+        <pin num="7" name="SD2" type="power_in"/>
+        <pin num="8" name="GNDOUT" type="power_in"/>
+        <pin num="9" name="OUT2" type="output"/>
+        <pin num="10" name="OUT1" type="output"/>
+        <pin num="11" name="Vdd" type="power_in"/>
+        <pin num="12" name="SD1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega48PB-AU">
+      <aliases>
+        <alias>ATmega88PB-AU</alias>
+        <alias>ATmega168PB-AU</alias>
+        <alias>ATmega328PB-AU</alias>
+      </aliases>
+      <description>20MHz, 4kB Flash, 512B SRAM, 256B EEPROM, TQFP-32</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/40001909A.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega48PB-AU</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="BiDi"/>
+        <pin num="2" name="PD4" type="BiDi"/>
+        <pin num="3" name="PE0" type="BiDi"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="PE1" type="BiDi"/>
+        <pin num="7" name="XTAL1/PB6" type="BiDi"/>
+        <pin num="8" name="XTAL2/PB7" type="BiDi"/>
+        <pin num="9" name="PD5" type="BiDi"/>
+        <pin num="10" name="PD6" type="BiDi"/>
+        <pin num="11" name="PD7" type="BiDi"/>
+        <pin num="12" name="PB0" type="BiDi"/>
+        <pin num="13" name="PB1" type="BiDi"/>
+        <pin num="14" name="PB2" type="BiDi"/>
+        <pin num="15" name="PB3" type="BiDi"/>
+        <pin num="16" name="PB4" type="BiDi"/>
+        <pin num="17" name="PB5" type="BiDi"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="PE2" type="BiDi"/>
+        <pin num="20" name="AREF" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="PE3" type="BiDi"/>
+        <pin num="23" name="PC0" type="BiDi"/>
+        <pin num="24" name="PC1" type="BiDi"/>
+        <pin num="25" name="PC2" type="BiDi"/>
+        <pin num="26" name="PC3" type="BiDi"/>
+        <pin num="27" name="PC4" type="BiDi"/>
+        <pin num="28" name="PC5" type="BiDi"/>
+        <pin num="29" name="~RESET~/PC6" type="BiDi"/>
+        <pin num="30" name="PD0" type="BiDi"/>
+        <pin num="31" name="PD1" type="BiDi"/>
+        <pin num="32" name="PD2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="NMOS" part="BSS138">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">SOT:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCA9306" part="PCA9306DCT_SSOP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9306DCT_SSOP</field>
+        <field name="Footprint">SSOP:SSOP8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VREF1" type="power_in"/>
+        <pin num="3" name="SCL1" type="BiDi"/>
+        <pin num="4" name="SDA1" type="BiDi"/>
+        <pin num="5" name="SDA2" type="BiDi"/>
+        <pin num="6" name="SCL2" type="BiDi"/>
+        <pin num="7" name="VREF2" type="power_in"/>
+        <pin num="8" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Connectors" part="SMA_PCB">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SMA_PCB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="sig" type="passive"/>
+        <pin num="2" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Connectors" part="uFL">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">uFL</field>
+        <field name="Footprint">Connectors_RF:U.FL-R-SMT-1</field>
+        <field name="Vendor">MOUSER</field>
+        <field name="SKU">798-UFLRSMT160</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RF" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="adf4355" part="ADF4355">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADF4355</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLK" type="BiDi"/>
+        <pin num="2" name="DATA" type="BiDi"/>
+        <pin num="3" name="LE" type="BiDi"/>
+        <pin num="4" name="CE" type="BiDi"/>
+        <pin num="5" name="Avdd" type="power_in"/>
+        <pin num="6" name="Vp" type="power_in"/>
+        <pin num="7" name="Cpout" type="power_in"/>
+        <pin num="8" name="Cpgnd" type="power_in"/>
+        <pin num="9" name="Agnd" type="power_in"/>
+        <pin num="10" name="Vrf" type="power_in"/>
+        <pin num="11" name="RfoutA+" type="BiDi"/>
+        <pin num="12" name="RfoutA-" type="BiDi"/>
+        <pin num="13" name="Agndrf" type="power_in"/>
+        <pin num="14" name="RfoutB+" type="BiDi"/>
+        <pin num="15" name="RfoutB-" type="BiDi"/>
+        <pin num="16" name="Avdd" type="power_in"/>
+        <pin num="17" name="Vvco" type="power_in"/>
+        <pin num="18" name="Agndvco" type="power_in"/>
+        <pin num="19" name="Vregvco" type="power_in"/>
+        <pin num="20" name="Vtune" type="BiDi"/>
+        <pin num="21" name="Agndvco" type="power_in"/>
+        <pin num="22" name="Rset" type="BiDi"/>
+        <pin num="23" name="Vref" type="power_in"/>
+        <pin num="24" name="Vbias" type="power_in"/>
+        <pin num="25" name="Creg1" type="power_in"/>
+        <pin num="26" name="PDBrf" type="BiDi"/>
+        <pin num="27" name="Dvdd" type="power_in"/>
+        <pin num="28" name="REFinB" type="BiDi"/>
+        <pin num="29" name="REFinA" type="BiDi"/>
+        <pin num="30" name="MUXOUT" type="BiDi"/>
+        <pin num="31" name="Sdgnd" type="power_in"/>
+        <pin num="32" name="Creg2" type="power_in"/>
+        <pin num="33" name="PAD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="adm7170" part="ADM7170">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADM7170</field>
+        <field name="Footprint">QFN:DFN8_3x3mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="power_out"/>
+        <pin num="2" name="Vout" type="power_out"/>
+        <pin num="3" name="Sense" type="input"/>
+        <pin num="4" name="SS" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="Vin" type="power_in"/>
+        <pin num="8" name="Vin" type="power_in"/>
+        <pin num="9" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ltc5548" part="LTC5549">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC5549</field>
+        <field name="Footprint">QFN:QFN12_2x3mm_UDB_LT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IF" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="RF" type="BiDi"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="EN" type="input"/>
+        <pin num="8" name="X2" type="input"/>
+        <pin num="9" name="Vcc" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="LO" type="input"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="minic_bfcw" part="BFCW">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">BFCW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="minic_hfcn" part="MINIC_HFCN">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">MINIC_HFCN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RFIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="RFOUT" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="minic_lfcn" part="MINIC_LFCN">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">MINIC_LFCN</field>
+        <field name="Footprint">MiniCircuits:FV1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RFIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="RFOUT" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="passives" part="CAP_0402">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_0402</field>
+        <field name="Footprint">SM0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="passives" part="CAP_0603">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_0603</field>
+        <field name="Footprint">SM0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="passives" part="CAP_0805">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_0805</field>
+        <field name="Footprint">SM0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="passives" part="CAP_1206">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_1206</field>
+        <field name="Footprint">SM1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="passives" part="IND_0402">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">IND_0402</field>
+        <field name="Footprint">SM0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="passives" part="IND_0603">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">IND_0603</field>
+        <field name="Footprint">SM0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="passives" part="IND_SMALL">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IND_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="passives" part="LED">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="input"/>
+        <pin num="K" name="K" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="passives" part="RES_0402">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES_0402</field>
+        <field name="Footprint">SM0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="passives" part="RES_0603">
+      <footprints>
+        <fp>SM0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES_0603</field>
+        <field name="Footprint">SM0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="passives" part="RES_1206">
+      <footprints>
+        <fp>SM0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES_1206</field>
+        <field name="Footprint">General_SMD:SM1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="sn74lv4t125" part="SN74LV4T125">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LV4T125</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~OE1" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1Y" type="output"/>
+        <pin num="4" name="~OE2" type="input"/>
+        <pin num="5" name="2A" type="input"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="3Y" type="output"/>
+        <pin num="9" name="3A" type="input"/>
+        <pin num="10" name="~OE3" type="input"/>
+        <pin num="11" name="4Y" type="output"/>
+        <pin num="12" name="4A" type="input"/>
+        <pin num="13" name="~OE4" type="input"/>
+        <pin num="14" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="tcm1-83x-1+" part="TCM1-83X-1+">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">TCM1-83X-1+</field>
+        <field name="Footprint">MiniCircuits:DB1627</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="NotConnected"/>
+        <pin num="2" name="PGND" type="passive"/>
+        <pin num="3" name="PDOT" type="passive"/>
+        <pin num="4" name="S" type="passive"/>
+        <pin num="5" name="SDOT" type="passive"/>
+        <pin num="6" name="~" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="tps5429x" part="TPS5429x">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS5429x</field>
+        <field name="Footprint">SSOP:PowerPad_TSSOP_16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PVDD1" type="power_in"/>
+        <pin num="2" name="BOOT1" type="output"/>
+        <pin num="3" name="SW1" type="output"/>
+        <pin num="4" name="PGND1" type="power_in"/>
+        <pin num="5" name="~EN1" type="input"/>
+        <pin num="6" name="~EN2" type="input"/>
+        <pin num="7" name="FB1" type="input"/>
+        <pin num="8" name="COMP1" type="passive"/>
+        <pin num="9" name="COMP2" type="passive"/>
+        <pin num="10" name="FB2" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="BP" type="passive"/>
+        <pin num="13" name="PGND2" type="power_in"/>
+        <pin num="14" name="SW2" type="output"/>
+        <pin num="15" name="BOOT2" type="output"/>
+        <pin num="16" name="PVDD2" type="power_in"/>
+        <pin num="17" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="xtals" part="SMD_XTAL_small">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SMD_XTAL_small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="LTC6957">
+      <uri>/home/nats/data/projects/kicad-components/Oscillator/ClockFanOut/LTC6957.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>/usr/share/kicad/library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="NMOS">
+      <uri>/home/nats/data/projects/kicad-components/Transistors/NMOS.lib</uri>
+    </library>
+    <library logical="PCA9306">
+      <uri>/home/nats/data/projects/kicad-components/Level Shifter/PCA9306.lib</uri>
+    </library>
+    <library logical="RF_Connectors">
+      <uri>/home/nats/data/projects/kicad-components/Connectors/RF/RF_Connectors.lib</uri>
+    </library>
+    <library logical="adf4355">
+      <uri>/home/nats/data/projects/kicad-components/Transceiver/PLL/adf4355.lib</uri>
+    </library>
+    <library logical="adm7170">
+      <uri>/home/nats/data/projects/kicad-components/Power/LDO/adm7170.lib</uri>
+    </library>
+    <library logical="ltc5548">
+      <uri>/home/nats/data/projects/kicad-components/Transceiver/Mixer/LT/ltc5548.lib</uri>
+    </library>
+    <library logical="minic_bfcw">
+      <uri>/home/nats/data/projects/kicad-components/Transceiver/Filter/minic_bfcw.lib</uri>
+    </library>
+    <library logical="minic_hfcn">
+      <uri>/home/nats/data/projects/kicad-components/Transceiver/Filter/minic_hfcn.lib</uri>
+    </library>
+    <library logical="minic_lfcn">
+      <uri>/home/nats/data/projects/kicad-components/Transceiver/Filter/minic_lfcn.lib</uri>
+    </library>
+    <library logical="passives">
+      <uri>/home/nats/data/projects/kicad-components/Passive/passives.lib</uri>
+    </library>
+    <library logical="sn74lv4t125">
+      <uri>/home/nats/data/projects/kicad-components/Level Shifter/sn74lv4t125.lib</uri>
+    </library>
+    <library logical="tcm1-83x-1+">
+      <uri>/home/nats/data/projects/kicad-components/Transceiver/Transformer/tcm1-83x-1+.lib</uri>
+    </library>
+    <library logical="tps5429x">
+      <uri>/home/nats/data/projects/kicad-components/Power/Buck/tps5429x.lib</uri>
+    </library>
+    <library logical="xtals">
+      <uri>/home/nats/data/projects/kicad-components/Oscillator/Xtal/xtals.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SCK">
+      <node ref="U404" pin="1"/>
+      <node ref="U106" pin="17"/>
+      <node ref="J104" pin="3"/>
+      <node ref="J106" pin="10"/>
+    </net>
+    <net code="2" name="/MOSI">
+      <node ref="J104" pin="4"/>
+      <node ref="U106" pin="15"/>
+      <node ref="U404" pin="2"/>
+      <node ref="J106" pin="6"/>
+    </net>
+    <net code="3" name="/~PLL_CS">
+      <node ref="U106" pin="14"/>
+      <node ref="U404" pin="3"/>
+    </net>
+    <net code="4" name="/PLL_LOCK">
+      <node ref="U404" pin="30"/>
+      <node ref="U106" pin="13"/>
+    </net>
+    <net code="5" name="Net-(R125-Pad1)">
+      <node ref="R125" pin="1"/>
+      <node ref="U105" pin="8"/>
+      <node ref="U105" pin="7"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="U201" pin="1"/>
+      <node ref="U201" pin="10"/>
+      <node ref="U201" pin="12"/>
+      <node ref="U201" pin="13"/>
+      <node ref="C206" pin="1"/>
+      <node ref="U201" pin="3"/>
+      <node ref="U201" pin="4"/>
+      <node ref="C113" pin="2"/>
+      <node ref="C205" pin="1"/>
+      <node ref="C204" pin="1"/>
+      <node ref="C114" pin="2"/>
+      <node ref="C112" pin="2"/>
+      <node ref="U201" pin="6"/>
+      <node ref="F201" pin="2"/>
+      <node ref="F201" pin="4"/>
+      <node ref="C415" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="J201" pin="2"/>
+      <node ref="C208" pin="2"/>
+      <node ref="K402" pin="2"/>
+      <node ref="C429" pin="2"/>
+      <node ref="J202" pin="2"/>
+      <node ref="C127" pin="2"/>
+      <node ref="U101" pin="9"/>
+      <node ref="C129" pin="2"/>
+      <node ref="C128" pin="2"/>
+      <node ref="C126" pin="2"/>
+      <node ref="R115" pin="1"/>
+      <node ref="C110" pin="2"/>
+      <node ref="U101" pin="6"/>
+      <node ref="C108" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="C131" pin="2"/>
+      <node ref="C116" pin="2"/>
+      <node ref="J102" pin="2"/>
+      <node ref="R114" pin="1"/>
+      <node ref="U104" pin="7"/>
+      <node ref="U104" pin="5"/>
+      <node ref="U104" pin="12"/>
+      <node ref="U104" pin="8"/>
+      <node ref="R103" pin="2"/>
+      <node ref="R109" pin="2"/>
+      <node ref="C408" pin="2"/>
+      <node ref="R112" pin="2"/>
+      <node ref="Q101" pin="2"/>
+      <node ref="C402" pin="2"/>
+      <node ref="C405" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="C111" pin="2"/>
+      <node ref="C109" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="C118" pin="2"/>
+      <node ref="C119" pin="2"/>
+      <node ref="R107" pin="2"/>
+      <node ref="U102" pin="9"/>
+      <node ref="U102" pin="6"/>
+      <node ref="C403" pin="2"/>
+      <node ref="U403" pin="9"/>
+      <node ref="U403" pin="6"/>
+      <node ref="C409" pin="2"/>
+      <node ref="C412" pin="2"/>
+      <node ref="C434" pin="2"/>
+      <node ref="C422" pin="2"/>
+      <node ref="C423" pin="2"/>
+      <node ref="C406" pin="2"/>
+      <node ref="F401" pin="4"/>
+      <node ref="F401" pin="2"/>
+      <node ref="C418" pin="2"/>
+      <node ref="C416" pin="2"/>
+      <node ref="F403" pin="2"/>
+      <node ref="F403" pin="4"/>
+      <node ref="J402" pin="2"/>
+      <node ref="F403" pin="5"/>
+      <node ref="F403" pin="6"/>
+      <node ref="F402" pin="2"/>
+      <node ref="F402" pin="4"/>
+      <node ref="C435" pin="2"/>
+      <node ref="C411" pin="2"/>
+      <node ref="C410" pin="2"/>
+      <node ref="C436" pin="2"/>
+      <node ref="F404" pin="6"/>
+      <node ref="F404" pin="5"/>
+      <node ref="F404" pin="4"/>
+      <node ref="C438" pin="2"/>
+      <node ref="F404" pin="2"/>
+      <node ref="C437" pin="2"/>
+      <node ref="U401" pin="9"/>
+      <node ref="F301" pin="4"/>
+      <node ref="F301" pin="2"/>
+      <node ref="U301" pin="6"/>
+      <node ref="U401" pin="6"/>
+      <node ref="C303" pin="2"/>
+      <node ref="J301" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="U402" pin="6"/>
+      <node ref="U402" pin="9"/>
+      <node ref="U404" pin="21"/>
+      <node ref="U301" pin="3"/>
+      <node ref="K401" pin="2"/>
+      <node ref="U301" pin="13"/>
+      <node ref="U301" pin="12"/>
+      <node ref="U301" pin="10"/>
+      <node ref="U301" pin="1"/>
+      <node ref="U404" pin="8"/>
+      <node ref="U404" pin="9"/>
+      <node ref="U301" pin="4"/>
+      <node ref="U404" pin="31"/>
+      <node ref="U404" pin="18"/>
+      <node ref="U404" pin="33"/>
+      <node ref="J401" pin="2"/>
+      <node ref="R403" pin="1"/>
+      <node ref="C413" pin="2"/>
+      <node ref="C432" pin="2"/>
+      <node ref="C424" pin="2"/>
+      <node ref="C431" pin="2"/>
+      <node ref="C430" pin="2"/>
+      <node ref="C433" pin="2"/>
+      <node ref="C421" pin="1"/>
+      <node ref="C417" pin="2"/>
+      <node ref="R402" pin="2"/>
+      <node ref="J302" pin="2"/>
+      <node ref="C308" pin="2"/>
+      <node ref="C407" pin="2"/>
+      <node ref="C306" pin="1"/>
+      <node ref="C305" pin="1"/>
+      <node ref="C304" pin="1"/>
+      <node ref="U404" pin="13"/>
+      <node ref="C404" pin="2"/>
+      <node ref="R134" pin="1"/>
+      <node ref="R128" pin="1"/>
+      <node ref="J101" pin="2"/>
+      <node ref="R133" pin="1"/>
+      <node ref="X101" pin="4"/>
+      <node ref="X101" pin="2"/>
+      <node ref="J106" pin="11"/>
+      <node ref="J107" pin="2"/>
+      <node ref="J106" pin="12"/>
+      <node ref="C138" pin="2"/>
+      <node ref="J101" pin="3"/>
+      <node ref="R116" pin="2"/>
+      <node ref="U107" pin="10"/>
+      <node ref="U107" pin="1"/>
+      <node ref="U107" pin="4"/>
+      <node ref="R120" pin="2"/>
+      <node ref="U107" pin="7"/>
+      <node ref="C136" pin="2"/>
+      <node ref="J104" pin="6"/>
+      <node ref="J103" pin="11"/>
+      <node ref="U105" pin="1"/>
+      <node ref="U107" pin="13"/>
+      <node ref="U103" pin="11"/>
+      <node ref="U106" pin="5"/>
+      <node ref="C102" pin="2"/>
+      <node ref="U103" pin="13"/>
+      <node ref="C101" pin="2"/>
+      <node ref="U106" pin="21"/>
+      <node ref="C132" pin="2"/>
+      <node ref="C135" pin="2"/>
+      <node ref="U103" pin="4"/>
+      <node ref="R104" pin="2"/>
+      <node ref="R124" pin="1"/>
+      <node ref="U103" pin="17"/>
+      <node ref="C133" pin="2"/>
+      <node ref="C134" pin="2"/>
+    </net>
+    <net code="7" name="+1.8V">
+      <node ref="C132" pin="1"/>
+      <node ref="R122" pin="2"/>
+      <node ref="J103" pin="12"/>
+      <node ref="U105" pin="2"/>
+      <node ref="R123" pin="2"/>
+    </net>
+    <net code="8" name="/MIO10_SCL">
+      <node ref="U105" pin="3"/>
+      <node ref="J103" pin="9"/>
+      <node ref="R122" pin="1"/>
+    </net>
+    <net code="9" name="+3V3">
+      <node ref="J106" pin="2"/>
+      <node ref="U106" pin="4"/>
+      <node ref="C134" pin="1"/>
+      <node ref="C133" pin="1"/>
+      <node ref="J104" pin="2"/>
+      <node ref="U106" pin="20"/>
+      <node ref="U106" pin="18"/>
+      <node ref="R126" pin="2"/>
+      <node ref="U107" pin="14"/>
+      <node ref="R125" pin="2"/>
+      <node ref="R127" pin="2"/>
+      <node ref="C138" pin="1"/>
+      <node ref="C127" pin="1"/>
+      <node ref="L104" pin="1"/>
+      <node ref="R121" pin="2"/>
+      <node ref="R110" pin="1"/>
+    </net>
+    <net code="10" name="/MISO">
+      <node ref="J106" pin="8"/>
+      <node ref="U106" pin="16"/>
+      <node ref="J104" pin="1"/>
+    </net>
+    <net code="11" name="/~RESET">
+      <node ref="U106" pin="29"/>
+      <node ref="R121" pin="1"/>
+      <node ref="J104" pin="5"/>
+    </net>
+    <net code="12" name="/MIO0">
+      <node ref="J103" pin="10"/>
+    </net>
+    <net code="13" name="/L24N">
+      <node ref="J103" pin="2"/>
+    </net>
+    <net code="14" name="/MIO09">
+      <node ref="J103" pin="7"/>
+    </net>
+    <net code="15" name="/MIO11_SDA">
+      <node ref="R123" pin="1"/>
+      <node ref="J103" pin="8"/>
+      <node ref="U105" pin="4"/>
+    </net>
+    <net code="16" name="/MIO49_FrontEnd_EN">
+      <node ref="Q101" pin="1"/>
+      <node ref="J103" pin="5"/>
+      <node ref="R112" pin="1"/>
+    </net>
+    <net code="17" name="Net-(J105-Pad5)">
+      <node ref="J105" pin="5"/>
+      <node ref="U106" pin="10"/>
+    </net>
+    <net code="18" name="Net-(J105-Pad6)">
+      <node ref="J105" pin="6"/>
+      <node ref="U106" pin="11"/>
+    </net>
+    <net code="19" name="/M2_X2">
+      <node ref="U106" pin="9"/>
+      <node ref="L301" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D103-PadA)">
+      <node ref="U106" pin="19"/>
+      <node ref="D103" pin="A"/>
+    </net>
+    <net code="21" name="Net-(D104-PadA)">
+      <node ref="D104" pin="A"/>
+      <node ref="U106" pin="22"/>
+    </net>
+    <net code="22" name="Net-(J105-Pad1)">
+      <node ref="J105" pin="1"/>
+      <node ref="U106" pin="23"/>
+    </net>
+    <net code="23" name="Net-(J105-Pad3)">
+      <node ref="U106" pin="25"/>
+      <node ref="J105" pin="3"/>
+    </net>
+    <net code="24" name="Net-(J105-Pad4)">
+      <node ref="U106" pin="26"/>
+      <node ref="J105" pin="4"/>
+    </net>
+    <net code="25" name="Net-(D101-PadA)">
+      <node ref="U106" pin="3"/>
+      <node ref="D101" pin="A"/>
+    </net>
+    <net code="26" name="+3.3VM2">
+      <node ref="C304" pin="2"/>
+      <node ref="C303" pin="1"/>
+      <node ref="L303" pin="2"/>
+      <node ref="C111" pin="1"/>
+      <node ref="U102" pin="1"/>
+      <node ref="U102" pin="2"/>
+      <node ref="U102" pin="3"/>
+    </net>
+    <net code="27" name="/RXD">
+      <node ref="U106" pin="30"/>
+      <node ref="R131" pin="2"/>
+    </net>
+    <net code="28" name="/M1_EN">
+      <node ref="L202" pin="2"/>
+      <node ref="U106" pin="32"/>
+    </net>
+    <net code="29" name="/M1_X2">
+      <node ref="U106" pin="1"/>
+      <node ref="L201" pin="2"/>
+    </net>
+    <net code="30" name="/M2_EN">
+      <node ref="U106" pin="2"/>
+      <node ref="L302" pin="2"/>
+    </net>
+    <net code="31" name="/TXD">
+      <node ref="R132" pin="1"/>
+      <node ref="U106" pin="31"/>
+    </net>
+    <net code="32" name="Net-(D102-PadA)">
+      <node ref="D102" pin="A"/>
+      <node ref="U106" pin="6"/>
+    </net>
+    <net code="33" name="/MIO48">
+      <node ref="J103" pin="4"/>
+      <node ref="U107" pin="9"/>
+    </net>
+    <net code="34" name="/MIO53">
+      <node ref="J103" pin="6"/>
+      <node ref="U107" pin="12"/>
+    </net>
+    <net code="35" name="/External_CS">
+      <node ref="U106" pin="12"/>
+      <node ref="J106" pin="4"/>
+    </net>
+    <net code="36" name="/L12N">
+      <node ref="J103" pin="3"/>
+      <node ref="U107" pin="5"/>
+    </net>
+    <net code="37" name="Net-(D101-PadK)">
+      <node ref="R124" pin="2"/>
+      <node ref="D101" pin="K"/>
+    </net>
+    <net code="38" name="Net-(J106-Pad7)">
+      <node ref="U107" pin="8"/>
+      <node ref="J106" pin="7"/>
+    </net>
+    <net code="39" name="Net-(J106-Pad9)">
+      <node ref="U107" pin="11"/>
+      <node ref="J106" pin="9"/>
+    </net>
+    <net code="40" name="/L10P">
+      <node ref="U107" pin="2"/>
+      <node ref="J103" pin="1"/>
+    </net>
+    <net code="41" name="Net-(J105-Pad2)">
+      <node ref="U106" pin="24"/>
+      <node ref="J105" pin="2"/>
+    </net>
+    <net code="42" name="Net-(C137-Pad2)">
+      <node ref="J107" pin="1"/>
+      <node ref="C137" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D104-PadK)">
+      <node ref="D104" pin="K"/>
+      <node ref="R134" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D102-PadK)">
+      <node ref="D102" pin="K"/>
+      <node ref="R128" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D103-PadK)">
+      <node ref="D103" pin="K"/>
+      <node ref="R133" pin="2"/>
+    </net>
+    <net code="46" name="Net-(C136-Pad1)">
+      <node ref="C136" pin="1"/>
+      <node ref="U106" pin="7"/>
+      <node ref="X101" pin="3"/>
+    </net>
+    <net code="47" name="Net-(R126-Pad1)">
+      <node ref="R126" pin="1"/>
+      <node ref="U105" pin="6"/>
+      <node ref="R129" pin="1"/>
+      <node ref="R131" pin="1"/>
+    </net>
+    <net code="48" name="/SCL">
+      <node ref="R129" pin="2"/>
+      <node ref="U106" pin="28"/>
+    </net>
+    <net code="49" name="/SDA">
+      <node ref="U106" pin="27"/>
+      <node ref="R130" pin="1"/>
+    </net>
+    <net code="50" name="Net-(R127-Pad1)">
+      <node ref="R127" pin="1"/>
+      <node ref="R130" pin="2"/>
+      <node ref="R132" pin="2"/>
+      <node ref="U105" pin="5"/>
+    </net>
+    <net code="51" name="Net-(J106-Pad5)">
+      <node ref="U107" pin="6"/>
+      <node ref="J106" pin="5"/>
+    </net>
+    <net code="52" name="Net-(J106-Pad3)">
+      <node ref="J106" pin="3"/>
+      <node ref="U107" pin="3"/>
+    </net>
+    <net code="53" name="Net-(C135-Pad1)">
+      <node ref="X101" pin="1"/>
+      <node ref="C135" pin="1"/>
+      <node ref="U106" pin="8"/>
+    </net>
+    <net code="54" name="+12V">
+      <node ref="C116" pin="1"/>
+      <node ref="C113" pin="1"/>
+      <node ref="U103" pin="1"/>
+      <node ref="J101" pin="1"/>
+      <node ref="R111" pin="1"/>
+      <node ref="U103" pin="16"/>
+    </net>
+    <net code="55" name="Net-(Q101-Pad3)">
+      <node ref="U103" pin="6"/>
+      <node ref="R111" pin="2"/>
+      <node ref="Q101" pin="3"/>
+      <node ref="U103" pin="5"/>
+    </net>
+    <net code="56" name="Net-(R105-Pad1)">
+      <node ref="R105" pin="1"/>
+      <node ref="U103" pin="8"/>
+    </net>
+    <net code="57" name="Net-(C126-Pad1)">
+      <node ref="U104" pin="4"/>
+      <node ref="C126" pin="1"/>
+    </net>
+    <net code="58" name="Net-(C125-Pad1)">
+      <node ref="U104" pin="3"/>
+      <node ref="C125" pin="1"/>
+    </net>
+    <net code="59" name="Net-(C125-Pad2)">
+      <node ref="C137" pin="1"/>
+      <node ref="R116" pin="1"/>
+      <node ref="C125" pin="2"/>
+    </net>
+    <net code="60" name="Net-(R119-Pad2)">
+      <node ref="R119" pin="2"/>
+      <node ref="U104" pin="9"/>
+    </net>
+    <net code="61" name="Net-(C105-Pad2)">
+      <node ref="C105" pin="2"/>
+      <node ref="R104" pin="1"/>
+    </net>
+    <net code="62" name="Net-(R102-Pad2)">
+      <node ref="R103" pin="1"/>
+      <node ref="R102" pin="2"/>
+      <node ref="U103" pin="7"/>
+    </net>
+    <net code="63" name="Net-(C106-Pad2)">
+      <node ref="C106" pin="2"/>
+      <node ref="U103" pin="2"/>
+    </net>
+    <net code="64" name="/ADF4355 PLL/CLKREF_N">
+      <node ref="C420" pin="1"/>
+      <node ref="C131" pin="1"/>
+    </net>
+    <net code="65" name="/ADF4355 PLL/CLKREF_P">
+      <node ref="U104" pin="10"/>
+      <node ref="C419" pin="1"/>
+    </net>
+    <net code="66" name="Net-(C130-Pad1)">
+      <node ref="R120" pin="1"/>
+      <node ref="C130" pin="1"/>
+      <node ref="R119" pin="1"/>
+    </net>
+    <net code="67" name="Net-(C130-Pad2)">
+      <node ref="J102" pin="1"/>
+      <node ref="C130" pin="2"/>
+    </net>
+    <net code="68" name="/ADF4355 PLL/LO_B">
+      <node ref="C444" pin="2"/>
+      <node ref="C446" pin="1"/>
+      <node ref="C309" pin="1"/>
+    </net>
+    <net code="69" name="/ADF4355 PLL/LO_A">
+      <node ref="C209" pin="1"/>
+      <node ref="C445" pin="2"/>
+      <node ref="C447" pin="1"/>
+    </net>
+    <net code="70" name="Net-(R114-Pad2)">
+      <node ref="R117" pin="1"/>
+      <node ref="U104" pin="1"/>
+      <node ref="R114" pin="2"/>
+    </net>
+    <net code="71" name="Net-(R115-Pad2)">
+      <node ref="U104" pin="6"/>
+      <node ref="R115" pin="2"/>
+      <node ref="R118" pin="1"/>
+    </net>
+    <net code="72" name="Net-(C128-Pad1)">
+      <node ref="R117" pin="2"/>
+      <node ref="U104" pin="11"/>
+      <node ref="U104" pin="2"/>
+      <node ref="R118" pin="2"/>
+      <node ref="L104" pin="2"/>
+      <node ref="C129" pin="1"/>
+      <node ref="C128" pin="1"/>
+    </net>
+    <net code="73" name="Net-(C108-Pad1)">
+      <node ref="C108" pin="1"/>
+      <node ref="U101" pin="4"/>
+    </net>
+    <net code="74" name="/2.5V_SW">
+      <node ref="C106" pin="1"/>
+      <node ref="C105" pin="1"/>
+      <node ref="U103" pin="3"/>
+      <node ref="L101" pin="2"/>
+    </net>
+    <net code="75" name="/2.5V_R">
+      <node ref="L101" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="R101" pin="2"/>
+      <node ref="C102" pin="1"/>
+      <node ref="C101" pin="1"/>
+    </net>
+    <net code="76" name="+3.3VM1">
+      <node ref="C203" pin="1"/>
+      <node ref="L203" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="C110" pin="1"/>
+      <node ref="U101" pin="3"/>
+      <node ref="U101" pin="2"/>
+      <node ref="U101" pin="1"/>
+    </net>
+    <net code="77" name="+5.5V">
+      <node ref="U102" pin="5"/>
+      <node ref="C103" pin="1"/>
+      <node ref="U101" pin="8"/>
+      <node ref="U101" pin="7"/>
+      <node ref="U102" pin="7"/>
+      <node ref="U102" pin="8"/>
+      <node ref="J106" pin="1"/>
+      <node ref="C402" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="U101" pin="5"/>
+      <node ref="R101" pin="1"/>
+      <node ref="U402" pin="7"/>
+      <node ref="U402" pin="8"/>
+      <node ref="U401" pin="5"/>
+      <node ref="U401" pin="7"/>
+      <node ref="U401" pin="8"/>
+      <node ref="C401" pin="1"/>
+      <node ref="U403" pin="5"/>
+      <node ref="U403" pin="7"/>
+      <node ref="U403" pin="8"/>
+      <node ref="U402" pin="5"/>
+      <node ref="C403" pin="1"/>
+    </net>
+    <net code="78" name="Net-(C109-Pad1)">
+      <node ref="C109" pin="1"/>
+      <node ref="U102" pin="4"/>
+    </net>
+    <net code="79" name="/3.3V_SW">
+      <node ref="C115" pin="1"/>
+      <node ref="U103" pin="14"/>
+      <node ref="C117" pin="1"/>
+      <node ref="L102" pin="2"/>
+    </net>
+    <net code="80" name="Net-(C117-Pad2)">
+      <node ref="R107" pin="1"/>
+      <node ref="C117" pin="2"/>
+    </net>
+    <net code="81" name="/3.3V_R">
+      <node ref="R108" pin="1"/>
+      <node ref="L102" pin="1"/>
+      <node ref="C118" pin="1"/>
+      <node ref="C119" pin="1"/>
+      <node ref="R110" pin="2"/>
+    </net>
+    <net code="82" name="Net-(R108-Pad2)">
+      <node ref="R109" pin="1"/>
+      <node ref="R108" pin="2"/>
+      <node ref="U103" pin="10"/>
+    </net>
+    <net code="83" name="Net-(C107-Pad1)">
+      <node ref="C107" pin="1"/>
+      <node ref="R105" pin="2"/>
+    </net>
+    <net code="84" name="Net-(C115-Pad2)">
+      <node ref="C115" pin="2"/>
+      <node ref="U103" pin="15"/>
+    </net>
+    <net code="85" name="Net-(R106-Pad1)">
+      <node ref="U103" pin="9"/>
+      <node ref="R106" pin="1"/>
+    </net>
+    <net code="86" name="Net-(C114-Pad1)">
+      <node ref="R106" pin="2"/>
+      <node ref="C114" pin="1"/>
+    </net>
+    <net code="87" name="Net-(C112-Pad1)">
+      <node ref="C112" pin="1"/>
+      <node ref="U103" pin="12"/>
+    </net>
+    <net code="88" name="/Mixer 1/R1_0">
+      <node ref="J202" pin="1"/>
+      <node ref="C207" pin="1"/>
+    </net>
+    <net code="89" name="Net-(C202-Pad1)">
+      <node ref="U201" pin="2"/>
+      <node ref="C202" pin="1"/>
+    </net>
+    <net code="90" name="Net-(C201-Pad1)">
+      <node ref="C201" pin="1"/>
+      <node ref="F201" pin="1"/>
+    </net>
+    <net code="91" name="Net-(C201-Pad2)">
+      <node ref="C201" pin="2"/>
+      <node ref="J201" pin="1"/>
+    </net>
+    <net code="92" name="Net-(C202-Pad2)">
+      <node ref="C202" pin="2"/>
+      <node ref="F201" pin="3"/>
+    </net>
+    <net code="93" name="Net-(L202-Pad1)">
+      <node ref="U201" pin="7"/>
+      <node ref="L202" pin="1"/>
+    </net>
+    <net code="94" name="Net-(L201-Pad1)">
+      <node ref="L201" pin="1"/>
+      <node ref="U201" pin="8"/>
+    </net>
+    <net code="95" name="/Mixer 1/R1_1">
+      <node ref="U201" pin="5"/>
+      <node ref="C207" pin="2"/>
+      <node ref="C206" pin="2"/>
+    </net>
+    <net code="96" name="/Mixer 1/L1_1">
+      <node ref="C209" pin="2"/>
+      <node ref="C208" pin="1"/>
+      <node ref="U201" pin="11"/>
+    </net>
+    <net code="97" name="/Mixer 1/mx_d_3v3">
+      <node ref="C205" pin="2"/>
+      <node ref="U201" pin="9"/>
+      <node ref="L203" pin="1"/>
+    </net>
+    <net code="98" name="/Mixer 2/R1_0">
+      <node ref="J302" pin="1"/>
+      <node ref="C307" pin="1"/>
+    </net>
+    <net code="99" name="Net-(C302-Pad1)">
+      <node ref="C302" pin="1"/>
+      <node ref="U301" pin="2"/>
+    </net>
+    <net code="100" name="Net-(C301-Pad1)">
+      <node ref="F301" pin="1"/>
+      <node ref="C301" pin="1"/>
+    </net>
+    <net code="101" name="Net-(C301-Pad2)">
+      <node ref="C301" pin="2"/>
+      <node ref="J301" pin="1"/>
+    </net>
+    <net code="102" name="Net-(C302-Pad2)">
+      <node ref="C302" pin="2"/>
+      <node ref="F301" pin="3"/>
+    </net>
+    <net code="103" name="Net-(L302-Pad1)">
+      <node ref="L302" pin="1"/>
+      <node ref="U301" pin="7"/>
+    </net>
+    <net code="104" name="Net-(L301-Pad1)">
+      <node ref="L301" pin="1"/>
+      <node ref="U301" pin="8"/>
+    </net>
+    <net code="105" name="/Mixer 2/L1_1">
+      <node ref="C309" pin="2"/>
+      <node ref="C308" pin="1"/>
+      <node ref="U301" pin="11"/>
+    </net>
+    <net code="106" name="/Mixer 2/R1_1">
+      <node ref="C307" pin="2"/>
+      <node ref="C306" pin="2"/>
+      <node ref="U301" pin="5"/>
+    </net>
+    <net code="107" name="/Mixer 2/mx_d_3v3">
+      <node ref="U301" pin="9"/>
+      <node ref="C305" pin="2"/>
+      <node ref="L303" pin="1"/>
+    </net>
+    <net code="108" name="Net-(C419-Pad2)">
+      <node ref="U404" pin="29"/>
+      <node ref="C419" pin="2"/>
+    </net>
+    <net code="109" name="/ADF4355 PLL/p_b_2_N">
+      <node ref="K401" pin="3"/>
+      <node ref="F401" pin="1"/>
+    </net>
+    <net code="110" name="/ADF4355 PLL/p_a_2_N">
+      <node ref="F402" pin="1"/>
+      <node ref="K402" pin="3"/>
+    </net>
+    <net code="111" name="Net-(C420-Pad2)">
+      <node ref="U404" pin="28"/>
+      <node ref="C420" pin="2"/>
+    </net>
+    <net code="112" name="/ADF4355 PLL/p_b_4_N">
+      <node ref="C442" pin="1"/>
+      <node ref="C444" pin="1"/>
+      <node ref="F403" pin="3"/>
+    </net>
+    <net code="113" name="/ADF4355 PLL/p_a_5_N">
+      <node ref="C443" pin="2"/>
+      <node ref="C447" pin="2"/>
+      <node ref="J402" pin="1"/>
+    </net>
+    <net code="114" name="Net-(C406-Pad1)">
+      <node ref="C406" pin="1"/>
+      <node ref="U403" pin="4"/>
+    </net>
+    <net code="115" name="/ADF4355 PLL/pll_vrf">
+      <node ref="L402" pin="1"/>
+      <node ref="C434" pin="1"/>
+      <node ref="U403" pin="3"/>
+      <node ref="C435" pin="1"/>
+      <node ref="U404" pin="10"/>
+      <node ref="C436" pin="1"/>
+      <node ref="C418" pin="1"/>
+      <node ref="U403" pin="2"/>
+      <node ref="U403" pin="1"/>
+      <node ref="C416" pin="1"/>
+      <node ref="L403" pin="1"/>
+      <node ref="C409" pin="1"/>
+      <node ref="L401" pin="1"/>
+      <node ref="L404" pin="1"/>
+    </net>
+    <net code="116" name="/ADF4355 PLL/p_a_4_N">
+      <node ref="C443" pin="1"/>
+      <node ref="F404" pin="3"/>
+      <node ref="C445" pin="1"/>
+    </net>
+    <net code="117" name="/ADF4355 PLL/p_a_3_N">
+      <node ref="F404" pin="1"/>
+      <node ref="F402" pin="3"/>
+    </net>
+    <net code="118" name="/ADF4355 PLL/pll_3v3">
+      <node ref="C437" pin="1"/>
+      <node ref="U402" pin="2"/>
+      <node ref="C423" pin="1"/>
+      <node ref="C422" pin="1"/>
+      <node ref="U402" pin="3"/>
+      <node ref="U402" pin="1"/>
+      <node ref="C438" pin="1"/>
+      <node ref="U404" pin="4"/>
+      <node ref="C408" pin="1"/>
+      <node ref="U404" pin="27"/>
+      <node ref="U404" pin="26"/>
+      <node ref="U404" pin="16"/>
+      <node ref="C410" pin="1"/>
+      <node ref="U404" pin="5"/>
+      <node ref="C411" pin="1"/>
+    </net>
+    <net code="119" name="/ADF4355 PLL/p_b_3_N">
+      <node ref="F403" pin="1"/>
+      <node ref="F401" pin="3"/>
+    </net>
+    <net code="120" name="/ADF4355 PLL/p_b_5_N">
+      <node ref="C446" pin="2"/>
+      <node ref="C442" pin="2"/>
+      <node ref="J401" pin="1"/>
+    </net>
+    <net code="121" name="Net-(C417-Pad1)">
+      <node ref="C417" pin="1"/>
+      <node ref="U404" pin="32"/>
+    </net>
+    <net code="122" name="Net-(C414-Pad2)">
+      <node ref="C414" pin="2"/>
+      <node ref="R402" pin="1"/>
+    </net>
+    <net code="123" name="/ADF4355 PLL/Vtune">
+      <node ref="R401" pin="1"/>
+      <node ref="C413" pin="1"/>
+      <node ref="U404" pin="20"/>
+    </net>
+    <net code="124" name="Net-(C405-Pad1)">
+      <node ref="U402" pin="4"/>
+      <node ref="C405" pin="1"/>
+    </net>
+    <net code="125" name="/ADF4355 PLL/Vvco">
+      <node ref="C412" pin="1"/>
+      <node ref="C429" pin="1"/>
+      <node ref="U404" pin="6"/>
+      <node ref="U404" pin="17"/>
+      <node ref="U404" pin="19"/>
+      <node ref="U401" pin="3"/>
+      <node ref="U401" pin="2"/>
+      <node ref="C407" pin="1"/>
+      <node ref="U401" pin="1"/>
+      <node ref="C424" pin="1"/>
+    </net>
+    <net code="126" name="Net-(C404-Pad1)">
+      <node ref="C404" pin="1"/>
+      <node ref="U401" pin="4"/>
+    </net>
+    <net code="127" name="Net-(C414-Pad1)">
+      <node ref="C414" pin="1"/>
+      <node ref="U404" pin="7"/>
+      <node ref="R401" pin="2"/>
+      <node ref="C415" pin="1"/>
+    </net>
+    <net code="128" name="Net-(C432-Pad1)">
+      <node ref="C432" pin="1"/>
+      <node ref="U404" pin="24"/>
+      <node ref="C433" pin="1"/>
+    </net>
+    <net code="129" name="Net-(C421-Pad2)">
+      <node ref="U404" pin="25"/>
+      <node ref="C421" pin="2"/>
+    </net>
+    <net code="130" name="Net-(K401-Pad1)">
+      <node ref="K401" pin="1"/>
+    </net>
+    <net code="131" name="Net-(K401-Pad6)">
+      <node ref="K401" pin="6"/>
+    </net>
+    <net code="132" name="Net-(K402-Pad1)">
+      <node ref="K402" pin="1"/>
+    </net>
+    <net code="133" name="Net-(R403-Pad2)">
+      <node ref="U404" pin="22"/>
+      <node ref="R403" pin="2"/>
+    </net>
+    <net code="134" name="Net-(C430-Pad1)">
+      <node ref="C430" pin="1"/>
+      <node ref="C431" pin="1"/>
+      <node ref="U404" pin="23"/>
+    </net>
+    <net code="135" name="/ADF4355 PLL/p_a_0_P">
+      <node ref="C428" pin="2"/>
+      <node ref="L402" pin="2"/>
+      <node ref="U404" pin="11"/>
+    </net>
+    <net code="136" name="/ADF4355 PLL/p_b_0_N">
+      <node ref="L403" pin="2"/>
+      <node ref="C425" pin="1"/>
+      <node ref="U404" pin="15"/>
+    </net>
+    <net code="137" name="/ADF4355 PLL/p_a_1_P">
+      <node ref="K402" pin="4"/>
+      <node ref="C428" pin="1"/>
+    </net>
+    <net code="138" name="/ADF4355 PLL/p_a_1_N">
+      <node ref="K402" pin="5"/>
+      <node ref="C427" pin="2"/>
+    </net>
+    <net code="139" name="Net-(K402-Pad6)">
+      <node ref="K402" pin="6"/>
+    </net>
+    <net code="140" name="/ADF4355 PLL/p_b_1_N">
+      <node ref="C425" pin="2"/>
+      <node ref="K401" pin="5"/>
+    </net>
+    <net code="141" name="/ADF4355 PLL/p_b_1_P">
+      <node ref="C426" pin="1"/>
+      <node ref="K401" pin="4"/>
+    </net>
+    <net code="142" name="/ADF4355 PLL/p_b_0_P">
+      <node ref="L401" pin="2"/>
+      <node ref="C426" pin="2"/>
+      <node ref="U404" pin="14"/>
+    </net>
+    <net code="143" name="/ADF4355 PLL/p_a_0_N">
+      <node ref="U404" pin="12"/>
+      <node ref="L404" pin="2"/>
+      <node ref="C427" pin="1"/>
+    </net>
+  </nets>
+</export>
