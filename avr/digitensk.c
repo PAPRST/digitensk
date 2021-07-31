@@ -114,6 +114,13 @@ uint8_t get_lock() {
 void write_reg(uint32_t data){
 	// ~CS
 	PORTB &= ~_BV(PB2);
+	PORTB &= ~_BV(PB0);
+
+	_delay_ms(1);
+
+	SPDR0 = (uint8_t)((data >> 24) & 0xFF);
+
+	while(!(SPSR0 & (1 << SPIF)));
 
 	SPDR0 = (uint8_t)((data >> 16) & 0xFF);
 
@@ -127,7 +134,10 @@ void write_reg(uint32_t data){
 
 	while(!(SPSR0 & (1 << SPIF)));
 
+	_delay_ms(1);
+
 	PORTB |= _BV(PB2);
+	PORTB |= _BV(PB0);
 }
 
 // Drive LEDS
@@ -135,9 +145,42 @@ void led_status(uint8_t leds) {
 	PORTE = 0x0F & leds;
 }
 
+// Drive MIXER
+void mixer_status(uint8_t mixers) {
+	PORTD = PORTD | (((mixers << 2) & 0x3C));
+}
+
 // Set PLL parameters
 void set_freq(Freq_Set set, uint8_t first) {
+	if(first == 1) {
+		write_reg(set.reg12);
+		_delay_ms(10);
+		write_reg(set.reg11);
+		_delay_ms(10);
+		write_reg(set.reg10);
+		_delay_ms(10);
+		write_reg(set.reg9);
+		_delay_ms(10);
+		write_reg(set.reg8);
+		_delay_ms(10);
+		write_reg(set.reg7);
+		_delay_ms(10);
+		write_reg(set.reg6);
+		_delay_ms(10);
+		write_reg(set.reg5);
+		_delay_ms(10);
+		write_reg(set.reg4);
+		_delay_ms(10);
+		write_reg(set.reg3);
+		_delay_ms(10);
+		write_reg(set.reg2);
+		_delay_ms(10);
+		write_reg(set.reg1);
+		_delay_ms(150);
+		write_reg(set.reg0);
+	} else {
 
+	}
 }
 
 int main() {
@@ -145,7 +188,13 @@ int main() {
 	init_uart();
 	init_spi();
 
+	//mixer_status(0xC0);
+
+	PORTD = 0x30;
+
+	set_freq(set_array[0], 1);
+
 	while (1) {
-		led_status(15);
+		led_status(14 + get_lock());
 	}
 }
