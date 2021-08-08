@@ -190,7 +190,7 @@ int main() {
 
 	//mixer_status(0xC0);
 
-	PORTD = 0x30;
+	PORTD = 0x14;
 
 	set_freq(set_array[0], 1);
 
